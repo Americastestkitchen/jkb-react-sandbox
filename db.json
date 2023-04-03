@@ -1,0 +1,263 @@
+
+{
+  "carousel":{
+    "miso_id":"2729521a-d259-11ed-b56f-2a0b5137ffe7",
+    "collections":[
+        {
+          "collection_type":"Main Courses",
+          "title":"Your Main Courses Inspired Monthly Mix",
+          "cloudinary_url":"SFS_Braised_Chicken_Thighs_with_Lemon_Spices_Basil_1_jexado",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Main Courses"
+          }
+        },
+        {
+          "collection_type":"Soups",
+          "title":"Your Soups Inspired Monthly Mix",
+          "cloudinary_url":"34860_sfs-wild-rice-mushroom-soup-10",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Soups"
+          }
+        },
+        {
+          "collection_type":"Vegetables",
+          "title":"Your Vegetables Inspired Monthly Mix",
+          "cloudinary_url":"SFS_QuesabirriaTacos-102_mdfc7i",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Vegetables"
+          }
+        },
+        {
+          "collection_type":"Chicken",
+          "title":"Your Chicken Inspired Monthly Mix",
+          "cloudinary_url":"34001_sfs-buffalo-wings-008",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Chicken"
+          }
+        },
+        {
+          "collection_type":"Snacks",
+          "title":"Your Snacks Inspired Monthly Mix",
+          "cloudinary_url":"SFS_indian_style_spiced_roasted_chickpeas_76_1_xnlx3f",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Snacks"
+          }
+        },
+        {
+          "collection_type":"Gluten Free",
+          "title":"Your Gluten Free Inspired Monthly Mix",
+          "cloudinary_url":"SFS_cheddar_cheese_bread-20_j3pv3p",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Gluten Free"
+          }
+        },
+        {
+          "collection_type":"Vegetarian",
+          "title":"Your Vegetarian Inspired Monthly Mix",
+          "cloudinary_url":"41528-sfs-mexican-style-corn-salad-120",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Vegetarian"
+          }
+        },
+        {
+          "collection_type":"Beef",
+          "title":"Your Beef Inspired Monthly Mix",
+          "cloudinary_url":"29171_sfs-classic-beef-tacos-10",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Beef"
+          }
+        },
+        {
+          "collection_type":"Side Dishes",
+          "title":"Your Side Dishes Inspired Monthly Mix",
+          "cloudinary_url":"SFS_Best_Baked_Potatoes_051_1_raqcyb",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Side Dishes"
+          }
+        },
+        {
+          "collection_type":"Pasta",
+          "title":"Your Pasta Inspired Monthly Mix",
+          "cloudinary_url":"SFS_Pasta_alla_Zozzona-1_f1butu",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Pasta"
+          }
+        },
+        {
+          "collection_type":"Appetizers",
+          "title":"Your Appetizers Inspired Monthly Mix",
+          "cloudinary_url":"30301_sfs-korean-fried-chicken-wings-48",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Appetizers"
+          }
+        },
+        {
+          "collection_type":"Cookbook Collection",
+          "title":"Your Cookbook Collection Inspired Monthly Mix",
+          "cloudinary_url":"29125_sfs-chocolate-eclair-cake-029",
+          "links":{
+              "self":"/api/v6/miso/user_to_attributes/Cookbook Collection"
+          }
+        }
+    ]
+  },
+  "most_recent":{
+    "userFavoritesTotal":3,
+    "results":[
+        {
+          "title":"Oven-Fried Chicken Wings",
+          "type":"recipe",
+          "favoritable_sti_type":"Recipe",
+          "site":"cco",
+          "commentsCount":118,
+          "slug":"7583-oven-fried-chicken-wings",
+          "totalRatingCount":33,
+          "avgScore":4.73,
+          "metaData":{
+              "id":7583,
+              "title":"Oven-Fried Chicken Wings",
+              "siteList":[
+                "cco"
+              ],
+              "photo":{
+                "publicId":"33936_sfs-oven-fried-chicken-wings-011",
+                "width":2731,
+                "height":2731,
+                "alt":"Oven-Fried Chicken Wings"
+              }
+          },
+          "links":{
+              "self":"/7583-oven-fried-chicken-wings"
+          }
+        },
+        {
+          "title":"Vindaloo and Chana Masala",
+          "type":"episode",
+          "favoritable_sti_type":"Episode",
+          "site":"atk",
+          "commentsCount":0,
+          "slug":"811-vindaloo-and-chana-masala",
+          "metaData":{
+              "id":811,
+              "title":"Vindaloo and Chana Masala",
+              "siteList":[
+                "ATK"
+              ],
+              "photo":{
+                "publicId":"ATKTV and CCTV Season Refresh/ATKTV S22/Episode 12/ATK-S22_20210716_11-43-00_49019",
+                "width":4096,
+                "height":2731,
+                "alt":null
+              }
+          },
+          "links":{
+              "self":"/811-vindaloo-and-chana-masala"
+          }
+        },
+        {
+          "title":"Goan Pork Vindaloo",
+          "type":"recipe",
+          "favoritable_sti_type":"Recipe",
+          "site":"atk",
+          "commentsCount":172,
+          "slug":"12579-goan-pork-vindaloo",
+          "totalRatingCount":37,
+          "avgScore":4.22,
+          "metaData":{
+              "id":12579,
+              "title":"Goan Pork Vindaloo",
+              "siteList":[
+                "atk",
+                "cio"
+              ],
+              "photo":{
+                "publicId":"SFS_pork_vindaloo-64_1_l6vduk",
+                "width":2731,
+                "height":2731,
+                "alt":null
+              }
+          },
+          "links":{
+              "self":"/12579-goan-pork-vindaloo"
+          }
+        }
+    ]
+  },
+  "favorites": {
+    "pagination":{
+        "current_page":1,
+        "last_page":true,
+        "per_page":36,
+        "total_count":3
+    },
+    "results":[
+        {
+          "id":27138517,
+          "created_at":"2022-06-02T10:59:01.882Z",
+          "document_title":"Oven-Fried Chicken Wings",
+          "document_description":"\u003cp\u003eIf you don’t deep-fry, can you have chicken wings that are crispy on the outside and moist and tender within? We cooked more than 200 pounds of wings to find out.\u003c/p\u003e",
+          "document_klass":"recipe",
+          "document_klass_formatted":"Recipe",
+          "object_id":"recipe_7583",
+          "document_browse_slug":"recipes",
+          "document_browse_categories":[
+              "poultry"
+          ],
+          "document_url":"/recipes/7583-oven-fried-chicken-wings",
+          "document_cloudinary_id":"33936_sfs-oven-fried-chicken-wings-011",
+          "document_cloudinary_id_landscape":null,
+          "document_slug":"oven-fried-chicken-wings",
+          "favorited_date_formatted":"June 2, 2022",
+          "document_created_at_formatted":"August 23, 2013",
+          "site":"cco",
+          "document_comment_count":118,
+          "document_avg_score":4.73,
+          "document_total_ratings":33
+        },
+        {
+          "id":27108633,
+          "created_at":"2022-05-30T16:54:39.928Z",
+          "document_title":"Vindaloo and Chana Masala",
+          "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#000000\"\u003eHosts Julia Collin Davison and Bridget Lancaster reveal the secrets to Goan Pork Vindaloo. Equipment expert Adam Ried shares with host Julia Collin Davison his top picks for rice cookers, and gadget critic Lisa McManus reviews electric can openers. Test cook Dan Souza prepares Julia Chana Masala.\u003c/span\u003e\u003c/p\u003e",
+          "document_klass":"episode",
+          "document_klass_formatted":"Episode",
+          "object_id":"episode_811",
+          "document_browse_slug":"episodes",
+          "document_browse_categories":null,
+          "document_url":"/episode/811-vindaloo-and-chana-masala",
+          "document_cloudinary_id":"ATKTV and CCTV Season Refresh/ATKTV S22/Episode 12/ATK-S22_20210716_11-43-00_49019",
+          "document_cloudinary_id_landscape":null,
+          "document_slug":"vindaloo-and-chana-masala",
+          "favorited_date_formatted":"May 30, 2022",
+          "document_created_at_formatted":"November 30, 2021",
+          "site":"atk",
+          "document_comment_count":0,
+          "document_avg_score":null,
+          "document_total_ratings":null
+        },
+        {
+          "id":27051015,
+          "created_at":"2022-05-25T15:36:59.872Z",
+          "document_title":"Goan Pork Vindaloo",
+          "document_description":"\u003cp\u003eDisregard vindaloo's reputation for extreme heat. The original Goan vindaloo—tender, juicy pork in a thick, tangy sauce that's aromatic with spices—is milder and more nuanced.\u003c/p\u003e",
+          "document_klass":"recipe",
+          "document_klass_formatted":"Recipe",
+          "object_id":"recipe_12579",
+          "document_browse_slug":"recipes",
+          "document_browse_categories":[
+              "meat"
+          ],
+          "document_url":"/recipes/12579-goan-pork-vindaloo",
+          "document_cloudinary_id":"SFS_pork_vindaloo-64_1_l6vduk",
+          "document_cloudinary_id_landscape":null,
+          "document_slug":"goan-pork-vindaloo",
+          "favorited_date_formatted":"May 25, 2022",
+          "document_created_at_formatted":"March 11, 2020",
+          "site":"atk",
+          "document_comment_count":172,
+          "document_avg_score":4.22,
+          "document_total_ratings":37
+        }
+    ]
+  }
+}
