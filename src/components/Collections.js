@@ -43,7 +43,7 @@ const Collections = () => {
             </div>
           </div>
         ) : (
-          <p>Loading...</p>
+          <p>Loading my collections...</p>
         )}
       </div>
     </div>
