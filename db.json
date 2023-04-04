@@ -184,80 +184,975 @@
     ]
   },
   "favorites": {
-    "pagination":{
-        "current_page":1,
-        "last_page":true,
-        "per_page":36,
-        "total_count":3
-    },
-    "results":[
-        {
-          "id":27138517,
-          "created_at":"2022-06-02T10:59:01.882Z",
-          "document_title":"Oven-Fried Chicken Wings",
-          "document_description":"\u003cp\u003eIf you don’t deep-fry, can you have chicken wings that are crispy on the outside and moist and tender within? We cooked more than 200 pounds of wings to find out.\u003c/p\u003e",
-          "document_klass":"recipe",
-          "document_klass_formatted":"Recipe",
-          "object_id":"recipe_7583",
-          "document_browse_slug":"recipes",
-          "document_browse_categories":[
-              "poultry"
+   "pagination":{
+      "current_page":1,
+      "last_page":false,
+      "per_page":36,
+      "total_count":43
+   },
+   "results":[
+      {
+         "id":31309793,
+         "created_at":"2023-04-04T14:22:07.493Z",
+         "document_title":"Slow-Cooker Teriyaki Pork Tenderloin",
+         "document_description":"\u003cp\u003eWe coat the pork with a teriyaki glaze made with equal parts sugar and soy sauce and seasoned with fresh ginger, garlic, and mirin.\u003cbr\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10757",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat"
+         ],
+         "document_url":"/recipes/10757-slow-cooker-teriyaki-pork-tenderloin",
+         "document_cloudinary_id":"SFS_teriyaki_pork_tenderloin-18_uufppl",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-teriyaki-pork-tenderloin",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 31, 2018",
+         "site":"atk",
+         "document_comment_count":9,
+         "document_avg_score":3.75,
+         "document_total_ratings":4
+      },
+      {
+         "id":31309791,
+         "created_at":"2023-04-04T14:22:05.531Z",
+         "document_title":"Slow-Cooker Sweet and Tangy Pulled Chicken",
+         "document_description":"\u003cp\u003eThis delicious pulled chicken is perfect for piling onto buns for an easy dinner.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10755",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "poultry"
+         ],
+         "document_url":"/recipes/10755-slow-cooker-sweet-and-tangy-pulled-chicken",
+         "document_cloudinary_id":"SFS_sweet_tangy_pulled_chicken-22_syuey9",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-sweet-and-tangy-pulled-chicken",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 31, 2018",
+         "site":"atk",
+         "document_comment_count":5,
+         "document_avg_score":4.0,
+         "document_total_ratings":3
+      },
+      {
+         "id":31309790,
+         "created_at":"2023-04-04T14:22:02.668Z",
+         "document_title":"Slow-Cooker Tex-Mex Stuffed Bell Peppers",
+         "document_description":"\u003cp\u003eStuffed peppers are easier to make in the slow cooker and require no preblanching of the peppers.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10758",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "vegetables"
+         ],
+         "document_url":"/recipes/10758-slow-cooker-tex-mex-stuffed-bell-peppers",
+         "document_cloudinary_id":"SFS_Tex-Mex_Stuffed_Bell_Peppers-9_us1fwr",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-tex-mex-stuffed-bell-peppers",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"February 1, 2018",
+         "site":"atk",
+         "document_comment_count":7,
+         "document_avg_score":4.43,
+         "document_total_ratings":7
+      },
+      {
+         "id":31309789,
+         "created_at":"2023-04-04T14:21:59.207Z",
+         "document_title":"Slow-Cooker Turkey Meatloaf",
+         "document_description":"\u003cp\u003eWe wanted a lighter version of classic meatloaf.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10773",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "poultry"
+         ],
+         "document_url":"/recipes/10773-slow-cooker-turkey-meatloaf",
+         "document_cloudinary_id":"SFS_glazed_meatloaf-14_dg9ulp",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-turkey-meatloaf",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"February 1, 2018",
+         "site":"atk",
+         "document_comment_count":1,
+         "document_avg_score":1.0,
+         "document_total_ratings":1
+      },
+      {
+         "id":31309788,
+         "created_at":"2023-04-04T14:21:55.856Z",
+         "document_title":"Slow-Cooker U.S. Senate Navy Bean Soup",
+         "document_description":"\u003cp\u003eAdding both ham steak and a ham hock guarantees that this navy bean soup has a deep, meaty, smoky flavor.\u0026nbsp;\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10778",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "beans_and_grains",
+            "meat",
+            "soups"
+         ],
+         "document_url":"/recipes/10778-slow-cooker-us-senate-navy-bean-soup",
+         "document_cloudinary_id":"SFS_Navy_Beans-38_flujfc",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-us-senate-navy-bean-soup",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"February 2, 2018",
+         "site":"atk",
+         "document_comment_count":27,
+         "document_avg_score":4.0,
+         "document_total_ratings":4
+      },
+      {
+         "id":31309786,
+         "created_at":"2023-04-04T14:21:53.527Z",
+         "document_title":"Slow-Cooker Warm Strawberry-Rhubarb Compote",
+         "document_description":"This compote can take any ice cream to the next level.",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10784",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "desserts"
+         ],
+         "document_url":"/recipes/10784-slow-cooker-warm-strawberry-rhubarb-compote",
+         "document_cloudinary_id":null,
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-warm-strawberry-rhubarb-compote",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"February 2, 2018",
+         "site":"atk",
+         "document_comment_count":3,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309785,
+         "created_at":"2023-04-04T14:21:51.521Z",
+         "document_title":"Slow-Cooker Wild Rice Pilaf With Cranberries and Pecans",
+         "document_description":"\u003cp\u003eFor great-tasting wild rice, we cook it along with heated broth, aromatics, and dried cranberries.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10791",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "beans_and_grains"
+         ],
+         "document_url":"/recipes/10791-slow-cooker-wild-rice-pilaf-with-cranberries-and-pecans",
+         "document_cloudinary_id":"SFS_wild_rice_pilaf_cranberries_pecans-10_rqkzoi",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-wild-rice-pilaf-with-cranberries-and-pecans",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"February 2, 2018",
+         "site":"atk",
+         "document_comment_count":2,
+         "document_avg_score":5.0,
+         "document_total_ratings":1
+      },
+      {
+         "id":31309783,
+         "created_at":"2023-04-04T14:21:49.030Z",
+         "document_title":"Slow-Cooker Meatballs and Marinara",
+         "document_description":"We figured out the formula for the perfect slow cooker spaghetti and meatballs.",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10639",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+
+         ],
+         "document_url":"/recipes/10639-slow-cooker-meatballs-and-marinara",
+         "document_cloudinary_id":"SFS_Meatballs_and_Marinara_025_b3otth",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-meatballs-and-marinara",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 13, 2018",
+         "site":"atk",
+         "document_comment_count":3,
+         "document_avg_score":5.0,
+         "document_total_ratings":1
+      },
+      {
+         "id":31309778,
+         "created_at":"2023-04-04T14:21:28.645Z",
+         "document_title":"Instant Pot Chicken and Braised Radishes with Dukkah",
+         "document_description":"\u003cp\u003eThe Instant Pot is perfect for braising radishes because the quick time under pressure takes the bite out of them and turns them delicately sweet while maintaining their crunch.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_14960",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "beans_and_grains",
+            "poultry",
+            "vegetables"
+         ],
+         "document_url":"/recipes/14960-instant-pot-chicken-and-braised-radishes-with-dukkah",
+         "document_cloudinary_id":"SFS_Chicken_with_Braised_Radishes_and_Dukkah-15_cyytbj",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"instant-pot-chicken-and-braised-radishes-with-dukkah",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"June 29, 2022",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309777,
+         "created_at":"2023-04-04T14:21:23.232Z",
+         "document_title":"Instant Oatmeal Mix",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-bg-transparent ql-color-#000000\"\u003eMake a big batch of instant oatmeal mix, then kids (or grown-ups) can make a bowl of oatmeal whenever they want—in 5 minutes!\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15609",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "beans_and_grains"
+         ],
+         "document_url":"/recipes/15609-instant-oatmeal-mix",
+         "document_cloudinary_id":"ATK Kids/Kids recipes/^Complete_DIY_Cookbook/Instant_Oatmeal_Mix/InstantOatmealMix_SOCIAL",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"instant-oatmeal-mix",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 31, 2023",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":5.0,
+         "document_total_ratings":3
+      },
+      {
+         "id":31309774,
+         "created_at":"2023-04-04T14:21:19.999Z",
+         "document_title":"Berry–Oat Smoothie",
+         "document_description":"\u003cp\u003eThis smoothie feels like a treat because it evokes the comforting flavor of berry cobbler using naturally sweet ingredients (and some choice spices) while packing in fiber.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15531",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "beans_and_grains"
+         ],
+         "document_url":"/recipes/15531-berry-oat-smoothie",
+         "document_cloudinary_id":"Healthy Drinks/SFS_Oat_and_Berry_Smoothie-45",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"berry-oat-smoothie",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 24, 2023",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":5.0,
+         "document_total_ratings":2
+      },
+      {
+         "id":31309773,
+         "created_at":"2023-04-04T14:21:18.561Z",
+         "document_title":"Blueberry Baked Oatmeal",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#000000 ql-bg-transparent\"\u003eThese flavorful baked oats are a cozy breakfast the whole family will enjoy right out of the oven or as a make-ahead meal.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15707",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "beans_and_grains"
+         ],
+         "document_url":"/recipes/15707-blueberry-baked-oatmeal",
+         "document_cloudinary_id":"ATK Kids/Kids recipes/^Kids Can Cook Anything/Blueberry Baked Oatmeal/SFS_Blueberry_Baked_Oatmeal_15953",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"blueberry-baked-oatmeal",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"February 22, 2023",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":5.0,
+         "document_total_ratings":1
+      },
+      {
+         "id":31309768,
+         "created_at":"2023-04-04T14:21:08.433Z",
+         "document_title":"Slow-Cooker Vietnamese Beef and Noodle Soup",
+         "document_description":"\u003cp\u003eBeefy blade steaks can cook all day in the slow cooker, making them the perfect choice for this aromatic soup.\u0026nbsp;\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_10780",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat",
+            "pasta",
+            "soups",
+            "vegetables"
+         ],
+         "document_url":"/recipes/10780-slow-cooker-vietnamese-beef-and-noodle-soup",
+         "document_cloudinary_id":"SFS_Vietnamese_Beef_and_Noodle_Soup_014_ag52ub",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"slow-cooker-vietnamese-beef-and-noodle-soup",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"February 2, 2018",
+         "site":"atk",
+         "document_comment_count":8,
+         "document_avg_score":4.75,
+         "document_total_ratings":4
+      },
+      {
+         "id":31309767,
+         "created_at":"2023-04-04T14:21:02.416Z",
+         "document_title":"Gluten-Free Soba Noodles with Roasted Eggplant and Sesame",
+         "document_description":"\u003cp\u003eWith its creamy texture and mild flavor, eggplant is a perfect foil to nutty buckwheat soba noodles.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_11789",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "pasta",
+            "vegetables"
+         ],
+         "document_url":"/recipes/11789-gluten-free-soba-noodles-with-roasted-eggplant-and-sesame",
+         "document_cloudinary_id":"SFS_Soba_Noodles_with_Roasted_Eggplant_and_Sesame-B_006_qckamv",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"gluten-free-soba-noodles-with-roasted-eggplant-and-sesame",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"May 24, 2019",
+         "site":"atk",
+         "document_comment_count":3,
+         "document_avg_score":5.0,
+         "document_total_ratings":1
+      },
+      {
+         "id":31309764,
+         "created_at":"2023-04-04T14:20:59.681Z",
+         "document_title":"Gluten-Free Drunken Noodles with Chicken",
+         "document_description":"\u003cp\u003eCalled drunken noodles because it is a supposed hangover cure, this Thai dish features wide rice noodles in a spicy, potent sauce and lots of basil.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_11790",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "pasta",
+            "poultry"
+         ],
+         "document_url":"/recipes/11790-gluten-free-drunken-noodles-with-chicken",
+         "document_cloudinary_id":"SFS_drunken_noodles_chicken-15_q1rqb7",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"gluten-free-drunken-noodles-with-chicken",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"May 24, 2019",
+         "site":"atk",
+         "document_comment_count":15,
+         "document_avg_score":4.0,
+         "document_total_ratings":4
+      },
+      {
+         "id":31309762,
+         "created_at":"2023-04-04T14:20:54.510Z",
+         "document_title":"Gỏi Cuốn (Vietnamese Summer Rolls)",
+         "document_description":"\u003cp\u003e\u003cem\u003e﻿\u003c/em\u003eThe best summer roll is a fresh summer roll, and the freshest summer roll is one you make yourself. Here's how.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_11899",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "seafood",
+            "vegetables"
+         ],
+         "document_url":"/recipes/11899-vietnamese-summer-rolls-goi-cuon",
+         "document_cloudinary_id":"SFS_vietnamese_summer_rolls_36_vm5uh5",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"vietnamese-summer-rolls-goi-cuon",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"July 15, 2019",
+         "site":"atk",
+         "document_comment_count":29,
+         "document_avg_score":5.0,
+         "document_total_ratings":3
+      },
+      {
+         "id":31309761,
+         "created_at":"2023-04-04T14:20:36.391Z",
+         "document_title":"Congee (Chinese Rice Porridge)",
+         "document_description":"\u003cp\u003eSoothing, simple to make, and endlessly versatile, China's iconic savory rice porridge should be part of your regular dinner—or breakfast—rotation.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_12378",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+
+         ],
+         "document_url":"/recipes/12378-congee-chinese-rice-porridge",
+         "document_cloudinary_id":"SFS_congee-42_1_1_phdovh",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"congee-chinese-rice-porridge",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 6, 2020",
+         "site":"atk",
+         "document_comment_count":41,
+         "document_avg_score":4.0,
+         "document_total_ratings":7
+      },
+      {
+         "id":31309750,
+         "created_at":"2023-04-04T14:19:58.686Z",
+         "document_title":"Meaty Skillet Mac with Plant-Based Meat",
+         "document_description":"\u003cp\u003eEven if you didn't grow up eating Hamburger Helper, there's something inherently nostalgic about a big bowlful of saucy, ground-beefy pasta.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15074",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "pasta",
+            "vegetables"
+         ],
+         "document_url":"/recipes/15074-meaty-skillet-mac-with-plant-based-meat",
+         "document_cloudinary_id":"SFS_Skillet_Macaroni_and_Plant-Based_Beef_323_idyius",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"meaty-skillet-mac-with-plant-based-meat",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"August 13, 2022",
+         "site":"atk",
+         "document_comment_count":1,
+         "document_avg_score":4.33,
+         "document_total_ratings":3
+      },
+      {
+         "id":31309748,
+         "created_at":"2023-04-04T14:19:55.832Z",
+         "document_title":"Pasta with Meat Sauce",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#000000\"\u003eA combination of ground beef and savory, umami-packed mushrooms makes this easy-to-make, kid-tested pasta sauce taste extra-meaty.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15389",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "pasta"
+         ],
+         "document_url":"/recipes/15389-pasta-with-meat-sauce",
+         "document_cloudinary_id":"ATK Kids/Kids recipes/^Complete_Science_Book/Pasta_with_Meat_Sauce/Square-PastaWithMeatSauce_Cropped",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"pasta-with-meat-sauce",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"December 7, 2022",
+         "site":"atk",
+         "document_comment_count":2,
+         "document_avg_score":5.0,
+         "document_total_ratings":4
+      },
+      {
+         "id":31309747,
+         "created_at":"2023-04-04T14:19:53.144Z",
+         "document_title":"Creamy Secret Ingredient Pasta",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-bg-transparent ql-color-#000000\"\u003eKids can make their own creamy, cheesy pasta in just about half an hour. The secret to the silky sauce? Egg yolks.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15416",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "pasta"
+         ],
+         "document_url":"/recipes/15416-creamy-secret-ingredient-pasta",
+         "document_cloudinary_id":"ATK Kids/Kids recipes/^Kids Can Cook Anything/Creamy Secret Ingredient Pasta/SFS_Creamy_Secret_Ingredient_Pasta_28_SQUARE",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"creamy-secret-ingredient-pasta",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"December 13, 2022",
+         "site":"atk",
+         "document_comment_count":5,
+         "document_avg_score":1.0,
+         "document_total_ratings":1
+      },
+      {
+         "id":31309744,
+         "created_at":"2023-04-04T14:19:35.123Z",
+         "document_title":"Toaster-Oven Spice-Roasted Steaks",
+         "document_description":"\u003cp\u003eRoasting steak in your toaster oven means you can eliminate the chance that you’ll get caught up in nailing the perfect sear on the grill only to cut into a welldone slab.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_14512",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat"
+         ],
+         "document_url":"/recipes/14512-toaster-oven-spice-roasted-steaks",
+         "document_cloudinary_id":"SFS_Crispy-Breaded-Boneless-Pork-Chops_21_1_q0nlpy",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"toaster-oven-spice-roasted-steaks",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 4, 2022",
+         "site":"atk",
+         "document_comment_count":2,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309743,
+         "created_at":"2023-04-04T14:19:32.598Z",
+         "document_title":"Toaster-Oven Steak Fajitas",
+         "document_description":"\u003cp\u003eFajitas are a sizzling spectacle, but we wanted a recipe that was more about flavor than theater and could be done all within your toaster oven.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_14497",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat"
+         ],
+         "document_url":"/recipes/14497-toaster-oven-steak-fajitas",
+         "document_cloudinary_id":null,
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"toaster-oven-steak-fajitas",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 4, 2022",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309741,
+         "created_at":"2023-04-04T14:19:29.387Z",
+         "document_title":"Toaster-Oven Glazed Meatloaf with Root Vegetables",
+         "document_description":"\u003cp\u003eThere’s something nostalgic about a classic meatloaf supper, but doing all the dishes afterwards—not so much.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_14501",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat",
+            "vegetables"
+         ],
+         "document_url":"/recipes/14501-toaster-oven-glazed-meatloaf-with-root-vegetables",
+         "document_cloudinary_id":null,
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"toaster-oven-glazed-meatloaf-with-root-vegetables",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"January 4, 2022",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309739,
+         "created_at":"2023-04-04T14:19:12.316Z",
+         "document_title":"Instant Pot Beef Stew with Eggplant and Potatoes",
+         "document_description":"\u003cp\u003eFor this understated yet company-worthy Persian-inspired stew, we chose boneless short ribs for their fall-apart tender texture, and browned just half of them in our Instant Pot to achieve great savory depth.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_14823",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat",
+            "soups",
+            "vegetables"
+         ],
+         "document_url":"/recipes/14823-instant-pot-beef-stew-with-eggplant-and-potatoes",
+         "document_cloudinary_id":"SFS_Beef_Stew_with_Eggplant_and_Potatoes_017_bfzcfe",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"instant-pot-beef-stew-with-eggplant-and-potatoes",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"April 19, 2022",
+         "site":"atk",
+         "document_comment_count":4,
+         "document_avg_score":3.0,
+         "document_total_ratings":2
+      },
+      {
+         "id":31309737,
+         "created_at":"2023-04-04T14:19:05.262Z",
+         "document_title":"Easy Beef and Cheese Empanadas",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#000000 ql-bg-transparent\"\u003eEmpanadas are fun for kids to eat—and make! Recruiting family members to help with the filling and shaping makes for special memories.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15390",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat"
+         ],
+         "document_url":"/recipes/15390-easy-beef-and-cheese-empanadas",
+         "document_cloudinary_id":"ATK Kids/Kids recipes/^Complete_Baking_Book/Mini_Beef_and_Cheese_Empanadas/MiniBeefandCheeseEmpanadas_SOCIAL",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"easy-beef-and-cheese-empanadas",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"December 7, 2022",
+         "site":"atk",
+         "document_comment_count":1,
+         "document_avg_score":3.0,
+         "document_total_ratings":1
+      },
+      {
+         "id":31309736,
+         "created_at":"2023-04-04T14:19:01.164Z",
+         "document_title":"Easiest-Ever Meatballs",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#000000 ql-bg-transparent\"\u003eFamily dinner in 45 minutes? These supereasy meatballs come together in a flash and cook right in the sauce. Just add spaghetti!\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15621",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat"
+         ],
+         "document_url":"/recipes/15621-easiest-ever-meatballs",
+         "document_cloudinary_id":"ATK Kids/Kids recipes/^My_First_Cookbook/Meatballs/SFS_Meatballs_075_2",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"easiest-ever-meatballs",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"February 8, 2023",
+         "site":"atk",
+         "document_comment_count":3,
+         "document_avg_score":4.75,
+         "document_total_ratings":4
+      },
+      {
+         "id":31309732,
+         "created_at":"2023-04-04T14:18:37.552Z",
+         "document_title":"Strawberry and Brie Tart with Herb Salad ",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-bg-transparent ql-color-#222222\"\u003eFlaky puff pastry is filled with berries and Brie to create this French-inspired savory tart.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15353",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "desserts",
+            "salads",
+            "vegetables"
+         ],
+         "document_url":"/recipes/15353-strawberry-and-brie-tart-with-herb-salad",
+         "document_cloudinary_id":"SFS_Strawberry_and_Brie_Tart_with_Herb_Salad_and_Balsamic_Dressing_417_square_xh430z",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"strawberry-and-brie-tart-with-herb-salad",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"December 2, 2022",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309730,
+         "created_at":"2023-04-04T14:18:35.396Z",
+         "document_title":"Macaroni and Cheese Mix ",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#000000 ql-bg-transparent\"\u003eWith this DIY mix, kids can make better-than-boxed macaroni and cheese for themselves—or for the whole family—whenever the craving hits.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15720",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "pasta"
+         ],
+         "document_url":"/recipes/15720-macaroni-and-cheese-mix",
+         "document_cloudinary_id":"ATK Kids/AKO Articles/mac_and_cheese_mix/SFS_MacaroniAndCheeseMix_7796_3",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"macaroni-and-cheese-mix",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"March 1, 2023",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":4.75,
+         "document_total_ratings":4
+      },
+      {
+         "id":31309729,
+         "created_at":"2023-04-04T14:18:33.370Z",
+         "document_title":"Frico Chips",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-bg-transparent ql-color-#000000\"\u003eIt takes about 30 minutes and one ingredient—cheese!—to make these crispy, snackable chips that kids and adults will love.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15722",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+
+         ],
+         "document_url":"/recipes/15722-frico-chips",
+         "document_cloudinary_id":"ATK Kids/Kids recipes/^Complete_Science_Book/Frico_Chips/SFS_Cheesy_Frico_Chips_304",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"frico-chips",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"March 1, 2023",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":4.5,
+         "document_total_ratings":2
+      },
+      {
+         "id":31309696,
+         "created_at":"2023-04-04T14:15:17.062Z",
+         "document_title":"The Wide World of Vinegar",
+         "document_description":"\u003cp\u003eWe want to help you better understand the vast array of vinegars from around the globe.\u003c/p\u003e",
+         "document_klass":"taste_test",
+         "document_klass_formatted":"Taste Test",
+         "object_id":"taste_test_2587",
+         "document_browse_slug":"taste_tests",
+         "document_browse_categories":[
+
+         ],
+         "document_url":"/taste_tests/2587-the-wide-world-of-vinegar",
+         "document_cloudinary_id":"ATK Reviews/2022/Vinegars/SPS_Vinegars_Hero",
+         "document_cloudinary_id_landscape":"ATK Reviews/2022/Vinegars/SPS_Vinegars_Hero",
+         "document_slug":"the-wide-world-of-vinegar",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"December 20, 2022",
+         "site":"atk",
+         "document_comment_count":4,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309690,
+         "created_at":"2023-04-04T14:14:51.772Z",
+         "document_title":"Why We Love Kansas City–Style Barbecue Sauce",
+         "document_description":"\u003cp\u003eIt’s a sticky-sweet American classic. But how did it become one of the country’s favorites?\u003c/p\u003e",
+         "document_klass":"taste_test",
+         "document_klass_formatted":"Taste Test",
+         "object_id":"taste_test_2551",
+         "document_browse_slug":"taste_tests",
+         "document_browse_categories":[
+
+         ],
+         "document_url":"/taste_tests/2551-why-we-love-kansas-city-style-barbecue-sauce",
+         "document_cloudinary_id":"ATK Reviews/2022/Kansas City–Style Barbecue Sauce/SPS_Hero-Reshoot-2_null_75625",
+         "document_cloudinary_id_landscape":"ATK Reviews/2022/Kansas City–Style Barbecue Sauce/SPS_Hero-Reshoot-2_null_75625",
+         "document_slug":"why-we-love-kansas-city-style-barbecue-sauce",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"November 15, 2022",
+         "site":"atk",
+         "document_comment_count":23,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309683,
+         "created_at":"2023-04-04T14:14:09.489Z",
+         "document_title":"Cider-Baked Ham",
+         "document_description":"\u003cp\u003eA smoky ham glazed with sweet apple cider and studded with cloves certainly sounds great, but many recipes lack apple flavor. Could we develop a simple technique that would infuse the ham with flavor more successfully?\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_3983",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat"
+         ],
+         "document_url":"/recipes/3983-cider-baked-ham",
+         "document_cloudinary_id":"6354_sfs-dj08-cvr-4c-ciderbakedham-3-279865",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"cider-baked-ham",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"October 12, 2011",
+         "site":"cco",
+         "document_comment_count":33,
+         "document_avg_score":5.0,
+         "document_total_ratings":2
+      },
+      {
+         "id":31309678,
+         "created_at":"2023-04-04T14:13:57.445Z",
+         "document_title":"Crumb-Coated Baked Ham",
+         "document_description":"\u003cp\u003eWe wanted a moist ham with crispy crumbs. But we kept getting dry ham and wet crumbs. How could we reverse the two?\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_7341",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "meat"
+         ],
+         "document_url":"/recipes/7341-crumb-coated-baked-ham",
+         "document_cloudinary_id":"SFS_CrumbCrustedHam-42_g0jnxk",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"crumb-coated-baked-ham",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"March 20, 2013",
+         "site":"cco",
+         "document_comment_count":11,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309672,
+         "created_at":"2023-04-04T14:13:34.081Z",
+         "document_title":"Double-Chocolate Banana Bread",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#0f0f0f\"\u003eWe put in more bananas than we thought our bread could hold. Then we added more.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_13292",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "breads_sandwiches_pizza",
+            "desserts"
+         ],
+         "document_url":"/recipes/13292-double-chocolate-banana-bread",
+         "document_cloudinary_id":"SFS_ChocolateChipBananaBread_0001_sgyrsf",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"double-chocolate-banana-bread",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"August 17, 2020",
+         "site":"cco",
+         "document_comment_count":44,
+         "document_avg_score":4.89,
+         "document_total_ratings":19
+      },
+      {
+         "id":31309668,
+         "created_at":"2023-04-04T14:13:21.726Z",
+         "document_title":"Brioche Dinner Rolls",
+         "document_description":"One simple dough, and a process that's just as easy.",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_11878",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "breads_sandwiches_pizza",
+            "desserts"
+         ],
+         "document_url":"/recipes/11878-brioche-dinner-rolls",
+         "document_cloudinary_id":"SFS_Brioche-Dinner-Rolls_013_lr6bev",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"brioche-dinner-rolls",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"June 17, 2019",
+         "site":"cco",
+         "document_comment_count":70,
+         "document_avg_score":4.71,
+         "document_total_ratings":7
+      },
+      {
+         "id":31309667,
+         "created_at":"2023-04-04T14:13:17.338Z",
+         "document_title":"Cuban Bread",
+         "document_description":"\u003cp\u003eOur savory loaf has the perfect texture for pressed sandwiches.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_12269",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "breads_sandwiches_pizza",
+            "desserts"
+         ],
+         "document_url":"/recipes/12269-cuban-bread",
+         "document_cloudinary_id":"SFS_CubanBread_17_ghnzh3",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"cuban-bread",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"December 5, 2019",
+         "site":"cco",
+         "document_comment_count":47,
+         "document_avg_score":3.67,
+         "document_total_ratings":3
+      }
+   ]
+  },
+  "collections": {
+    "meta_data":{
+        "collections":[
+          {
+              "count":3,
+              "document_cloudinary_ids":"SFS_CrumbCrustedHam-42_g0jnxk",
+              "id":682757,
+              "name":"Holiday Meals",
+              "slug":"holiday-meals",
+              "updated_at":"2023-04-04T14:17:58.896Z"
+          },
+          {
+              "count":1,
+              "document_cloudinary_ids":"21438_sfs-new-england-bar-pizza-1",
+              "id":682756,
+              "name":"Pizza",
+              "slug":"pizza",
+              "updated_at":"2023-04-04T14:17:42.451Z"
+          },
+          {
+              "count":2,
+              "document_cloudinary_ids":"SFS_pork_vindaloo-64_1_l6vduk",
+              "id":682755,
+              "name":"Indian Dishes",
+              "slug":"indian-dishes",
+              "updated_at":"2023-04-04T14:17:25.512Z"
+          },
+          {
+              "count":5,
+              "document_cloudinary_ids":"SFS_GarlicHerbButterRolls_051_k8wbeu",
+              "id":682754,
+              "name":"Breads",
+              "slug":"breads",
+              "updated_at":"2023-04-04T14:16:40.041Z"
+          },
+          {
+              "count":2,
+              "document_cloudinary_ids":"ATK Reviews/2022/Kansas City–Style Barbecue Sauce/SPS_Hero-Reshoot-2_null_75625",
+              "id":682753,
+              "name":"Condiments",
+              "slug":"condiments",
+              "updated_at":"2023-04-04T14:16:13.747Z"
+          },
+          {
+              "count":2,
+              "document_cloudinary_ids":"SFS_pork_vindaloo-64_1_l6vduk",
+              "id":682695,
+              "name":"Chicken",
+              "slug":"chicken",
+              "updated_at":"2023-04-03T21:09:47.552Z"
+          }
+        ],
+        "facets":{
+          "episodes":[
+              {
+                "slug":"_all_",
+                "count":1
+              }
           ],
-          "document_url":"/recipes/7583-oven-fried-chicken-wings",
-          "document_cloudinary_id":"33936_sfs-oven-fried-chicken-wings-011",
-          "document_cloudinary_id_landscape":null,
-          "document_slug":"oven-fried-chicken-wings",
-          "favorited_date_formatted":"June 2, 2022",
-          "document_created_at_formatted":"August 23, 2013",
-          "site":"cco",
-          "document_comment_count":118,
-          "document_avg_score":4.73,
-          "document_total_ratings":33
-        },
-        {
-          "id":27108633,
-          "created_at":"2022-05-30T16:54:39.928Z",
-          "document_title":"Vindaloo and Chana Masala",
-          "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#000000\"\u003eHosts Julia Collin Davison and Bridget Lancaster reveal the secrets to Goan Pork Vindaloo. Equipment expert Adam Ried shares with host Julia Collin Davison his top picks for rice cookers, and gadget critic Lisa McManus reviews electric can openers. Test cook Dan Souza prepares Julia Chana Masala.\u003c/span\u003e\u003c/p\u003e",
-          "document_klass":"episode",
-          "document_klass_formatted":"Episode",
-          "object_id":"episode_811",
-          "document_browse_slug":"episodes",
-          "document_browse_categories":null,
-          "document_url":"/episode/811-vindaloo-and-chana-masala",
-          "document_cloudinary_id":"ATKTV and CCTV Season Refresh/ATKTV S22/Episode 12/ATK-S22_20210716_11-43-00_49019",
-          "document_cloudinary_id_landscape":null,
-          "document_slug":"vindaloo-and-chana-masala",
-          "favorited_date_formatted":"May 30, 2022",
-          "document_created_at_formatted":"November 30, 2021",
-          "site":"atk",
-          "document_comment_count":0,
-          "document_avg_score":null,
-          "document_total_ratings":null
-        },
-        {
-          "id":27051015,
-          "created_at":"2022-05-25T15:36:59.872Z",
-          "document_title":"Goan Pork Vindaloo",
-          "document_description":"\u003cp\u003eDisregard vindaloo's reputation for extreme heat. The original Goan vindaloo—tender, juicy pork in a thick, tangy sauce that's aromatic with spices—is milder and more nuanced.\u003c/p\u003e",
-          "document_klass":"recipe",
-          "document_klass_formatted":"Recipe",
-          "object_id":"recipe_12579",
-          "document_browse_slug":"recipes",
-          "document_browse_categories":[
-              "meat"
+          "recipes":[
+              {
+                "slug":"_all_",
+                "count":40
+              },
+              {
+                "slug":"meat",
+                "count":13
+              },
+              {
+                "slug":"vegetables",
+                "count":9
+              },
+              {
+                "slug":"desserts",
+                "count":7
+              },
+              {
+                "slug":"pasta",
+                "count":7
+              },
+              {
+                "slug":"breads_sandwiches_pizza",
+                "count":6
+              },
+              {
+                "slug":"beans_and_grains",
+                "count":6
+              },
+              {
+                "slug":"poultry",
+                "count":5
+              },
+              {
+                "slug":"soups",
+                "count":3
+              },
+              {
+                "slug":"salads",
+                "count":1
+              },
+              {
+                "slug":"seafood",
+                "count":1
+              }
           ],
-          "document_url":"/recipes/12579-goan-pork-vindaloo",
-          "document_cloudinary_id":"SFS_pork_vindaloo-64_1_l6vduk",
-          "document_cloudinary_id_landscape":null,
-          "document_slug":"goan-pork-vindaloo",
-          "favorited_date_formatted":"May 25, 2022",
-          "document_created_at_formatted":"March 11, 2020",
-          "site":"atk",
-          "document_comment_count":172,
-          "document_avg_score":4.22,
-          "document_total_ratings":37
-        }
-    ]
+          "taste_tests":[
+              {
+                "slug":"_all_",
+                "count":2
+              }
+          ]
+        },
+        "favorites_count":43
+    }
   }
 }
