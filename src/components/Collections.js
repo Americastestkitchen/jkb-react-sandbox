@@ -57,6 +57,7 @@ const Collections = () => {
           Get this out of the DOM unless it's requested
           Figure out React Transitions, to allow for a slide in effect
           in association with the conditional visiblity.
+          Look at https://github.com/reactjs/react-transition-group
       */}
       <SlideInContainer isOpen={isOpen} toggleMenu={toggleMenu}>
           <p className="font-semibold">Create a new collection</p>

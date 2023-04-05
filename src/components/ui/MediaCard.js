@@ -78,6 +78,7 @@ const MediaCard = ({elementType = 'div', headerLevel = 'h2', id, ...props}) => {
           Get this out of the DOM unless it's requested
           Figure out React Transitions, to allow for a slide in effect
           in association with the conditional visiblity
+          Look at https://github.com/reactjs/react-transition-group
       */}
       <SlideInContainer isOpen={isOpen} toggleMenu={toggleMenu}>
         <div className="flex items-center gap-4 pb-4 border-b border-silver">
