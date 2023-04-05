@@ -87,6 +87,11 @@ const Favorites = () => {
       <div className="w-full max-w-[1136px] px-4 pb-8 mx-auto text-right lg:px-0">
         <a href="#root" className="inline-block">Back to top</a>
       </div>
+      {/* TODO:
+          Get this out of the DOM unless it's requested
+          Figure out React Transitions, to allow for a slide in effect
+          in association with the conditional visiblity
+      */}
       <SlideInContainer isOpen={isOpen} toggleMenu={toggleMenu}>
         <p className="font-bold">Sort and Filter By</p>
         <ul className="space-y-1">

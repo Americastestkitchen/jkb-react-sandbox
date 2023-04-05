@@ -11,6 +11,7 @@ const SlideInContainer = ({children, isOpen, toggleMenu}) => {
 
   useClickOutside(containerRef, handleOutsideClick);
   const buttonText = isOpen ? 'Close Menu' : 'Open Menu'
+
   return (
     <div ref={containerRef} className={`slide-in ${isOpen ? 'open' : 'closed'}`}>
       <div className="space-y-6 grow">{ children }</div>

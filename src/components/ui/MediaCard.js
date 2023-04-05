@@ -71,9 +71,14 @@ const MediaCard = ({elementType = 'div', headerLevel = 'h2', id, ...props}) => {
         </div>
         <p className="pt-4">Saved On {document_created_at_formatted}</p>
       </div>
-      <a className="absolute -top-5 -right-1 -left-1 -bottom-1" href={`https://www.americastestkitchen.com${document_url}`}>
+      <a className="absolute -top-1 -right-1 -left-1 -bottom-1" href={`https://www.americastestkitchen.com${document_url}`}>
         <span className="sr-only">{document_title}</span>
       </a>
+      {/* TODO:
+          Get this out of the DOM unless it's requested
+          Figure out React Transitions, to allow for a slide in effect
+          in association with the conditional visiblity
+      */}
       <SlideInContainer isOpen={isOpen} toggleMenu={toggleMenu}>
         <div className="flex items-center gap-4 pb-4 border-b border-silver">
           <div className='w-20 shrink-0'>

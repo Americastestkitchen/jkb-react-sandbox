@@ -53,6 +53,11 @@ const Collections = () => {
           <p>Loading my collections...</p>
         )}
       </div>
+      {/* TODO:
+          Get this out of the DOM unless it's requested
+          Figure out React Transitions, to allow for a slide in effect
+          in association with the conditional visiblity.
+      */}
       <SlideInContainer isOpen={isOpen} toggleMenu={toggleMenu}>
           <p className="font-semibold">Create a new collection</p>
           <form>
