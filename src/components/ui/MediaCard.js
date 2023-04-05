@@ -7,7 +7,6 @@ const MediaCard = ({elementType = 'div', headerLevel = 'h2', ...props}) => {
   const Header = headerLevel
   const {
     document_title,
-    document_klass,
     document_cloudinary_id,
     site,
     document_description,
@@ -60,7 +59,7 @@ const MediaCard = ({elementType = 'div', headerLevel = 'h2', ...props}) => {
         </div>
         <p>Saved On {document_created_at_formatted}</p>
       </div>
-      <a className="absolute inset-0" href={`https://www.americastestkitchen.com${document_url}`}>
+      <a className="absolute transition-all duration-150 -top-5 -right-1 -left-1 -bottom-1 outline-transparent outline-2 focus:outline-dashed outline-offset-2 focus:outline-eclipse" href={`https://www.americastestkitchen.com${document_url}`}>
         <span className="sr-only">{document_title}</span>
       </a>
     </Wrapper>

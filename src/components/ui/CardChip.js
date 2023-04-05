@@ -31,7 +31,7 @@ const CardChip = ({elementType = 'div', headerLevel = 'h2', ...props}) => {
           <Header className="font-semibold transition-colors duration-150 group-hover:text-mint">{name}</Header>
         </div>
       </div>
-      <a href={`https://www.americastestkitchen.com/favorite_collections/${slug}`} className="absolute inset-0"><span class="sr-only">{name} collection</span></a>
+      <a href={`https://www.americastestkitchen.com/favorite_collections/${slug}`} className="absolute inset-0 transition-all duration-150 outline-transparent outline-2 focus:outline-dashed outline-offset-2 focus:outline-eclipse"><span class="sr-only">{name} collection</span></a>
     </Wrapper>
   )
 }

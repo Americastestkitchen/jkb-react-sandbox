@@ -32,7 +32,7 @@ const Collections = () => {
                 <p className="text-sm font-semibold">+ Create new collection</p>
               </div>
             </div>
-            <ul className="flex items-center gap-6 px-4 overflow-x-scroll">
+            <ul className="flex items-center gap-6 px-4 py-1 overflow-x-scroll">
               {
                 collections.meta_data.collections.map((item, index) => (
                   <CardChip {...item }
