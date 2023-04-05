@@ -4,7 +4,7 @@ import SlideInContainer from './SlideInContainer'
 
 const cloudinaryUrl = 'https://res.cloudinary.com/hksqkdlah/image/upload/ar_1:1,c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,q_auto:low,w_270/'
 
-const MediaCard = ({elementType = 'div', headerLevel = 'h2', ...props}) => {
+const MediaCard = ({elementType = 'div', headerLevel = 'h2', id, ...props}) => {
   const Wrapper = elementType
   const Header = headerLevel
   const {
@@ -25,7 +25,7 @@ const MediaCard = ({elementType = 'div', headerLevel = 'h2', ...props}) => {
   };
 
   return (
-    <Wrapper className="relative group">
+    <Wrapper className="relative group" id={id}>
       <div className={document_cloudinary_id ? 'media-card-image' : 'media-card-image no-image'}>
         <div className='min-h-[2rem]'>
           {document_cloudinary_id && (

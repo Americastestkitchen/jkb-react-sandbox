@@ -71,6 +71,7 @@ const Favorites = () => {
                 favorites.map((item) => (
                   <MediaCard
                     key={item.id}
+                    id={item.id}
                     {...item }
                     elementType="li"
                     headerLevel='h3'
