@@ -1,6 +1,5 @@
 const cloudinaryUrl = 'https://res.cloudinary.com/hksqkdlah/image/upload/c_fill,dpr_2.0,f_auto,fl_lossy.progressive.strip_profile,g_faces:auto,h_128,q_auto:low,w_128/'
 
-
 const CardChip = ({elementType = 'div', headerLevel = 'h2', ...props}) => {
   const Wrapper = elementType
   const Header = headerLevel
@@ -28,10 +27,10 @@ const CardChip = ({elementType = 'div', headerLevel = 'h2', ...props}) => {
             </svg>
             {count} {itemLabel}
           </div>
-          <Header className="font-semibold transition-colors duration-150 group-hover:text-mint">{name}</Header>
+          <Header className="font-semibold transition-colors duration-150 group-hover:text-mint-dark">{name}</Header>
         </div>
       </div>
-      <a href={`https://www.americastestkitchen.com/favorite_collections/${slug}`} className="absolute inset-0 transition-all duration-150 outline-transparent outline-2 focus:outline-dashed outline-offset-2 focus:outline-eclipse"><span class="sr-only">{name} collection</span></a>
+      <a href={`https://www.americastestkitchen.com/favorite_collections/${slug}`} className="absolute inset-0"><span className="sr-only">{name} collection</span></a>
     </Wrapper>
   )
 }

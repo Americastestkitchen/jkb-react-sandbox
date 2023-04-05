@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  @apply scroll-smooth;
+}
+
 .media-card-image {
   @apply relative;
 }
@@ -12,4 +16,28 @@
 
 .media-card-image.no-image .media-card-site {
   @apply absolute top-0 left-0;
+}
+
+.menu-button {
+  @apply flex items-center w-full gap-2 p-1 transition-all duration-150 rounded hover:bg-white-smoke;
+}
+
+.menu-button.active {
+  @apply pointer-events-none bg-white-smoke;
+}
+
+.slide-in {
+  @apply fixed top-0 right-0 z-50 flex flex-col h-screen p-8 transition-transform duration-300 transform bg-white shadow-lg w-96;
+}
+
+.slide-in.closed {
+  @apply translate-x-full;
+}
+
+.slide-in.open {
+  @apply translate-x-0;
+}
+
+a, button {
+  @apply font-semibold transition-all duration-150 outline-transparent outline-2 focus:outline-dashed outline-offset-2 focus:outline-eclipse;
 }
