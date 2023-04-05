@@ -22,17 +22,17 @@ const Collections = () => {
   }, [])
 
   return (
-    <div className="px-4 space-y-6 lg:px-0">
+    <section aria-labelledby="my-collections" className="px-4 space-y-6 lg:px-0">
       <div>
         {collections ? (
           <div className="space-y-6">
             <div className="w-full max-w-5xl mx-auto">
               <div className="relative flex items-baseline justify-between pb-2 border-b">
-                <h1 className="text-2xl font-semibold">My Collections</h1>
+                <h1 id="my-collections" className="text-2xl font-semibold">My Collections</h1>
                 <p className="text-sm font-semibold">+ Create new collection</p>
               </div>
             </div>
-            <div className="flex items-center gap-6 px-4 overflow-x-scroll">
+            <ul className="flex items-center gap-6 px-4 overflow-x-scroll">
               {
                 collections.meta_data.collections.map((item, index) => (
                   <CardChip {...item }
@@ -40,13 +40,13 @@ const Collections = () => {
                     headerLevel='h2' />
                 ))
               }
-            </div>
+            </ul>
           </div>
         ) : (
           <p>Loading my collections...</p>
         )}
       </div>
-    </div>
+    </section>
   )
 }
 

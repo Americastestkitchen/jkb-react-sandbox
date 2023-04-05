@@ -188,9 +188,78 @@
       "current_page":1,
       "last_page":false,
       "per_page":36,
-      "total_count":43
+      "total_count":46
    },
    "results":[
+      {
+         "id":31314029,
+         "created_at":"2023-04-04T20:45:29.699Z",
+         "document_title":"Spinach and Goat Cheese Quesadillas for Two",
+         "document_description":"\u003cp\u003eWith a few tweaks to the cooking method, it's easy to bring proteins and vegetables into the fold.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15749",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "vegetables"
+         ],
+         "document_url":"/recipes/15749-spinach-and-goat-cheese-quesadillas-for-two",
+         "document_cloudinary_id":"SFS_Vegetable_Quesadillas_rtbc7a",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"spinach-and-goat-cheese-quesadillas-for-two",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"March 10, 2023",
+         "site":"cio",
+         "document_comment_count":0,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31314028,
+         "created_at":"2023-04-04T20:45:28.644Z",
+         "document_title":"Halibut à la Nage with Parsnips and Tarragon",
+         "document_description":"\u003cp\u003eÀ la nage—the French method for poaching fish in a delicate broth—is gentle and mostly hands-off, and it delivers pristine flavor with restaurant-caliber panache.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15760",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "seafood"
+         ],
+         "document_url":"/recipes/15760-halibut-a-la-nage-with-parsnips-and-tarragon",
+         "document_cloudinary_id":"SFS_Reshoot_Poached__Halibut_with_Parsnips_and_Tarragon_6_btsbhg",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"halibut-a-la-nage-with-parsnips-and-tarragon",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"March 12, 2023",
+         "site":"cio",
+         "document_comment_count":2,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31314027,
+         "created_at":"2023-04-04T20:45:27.024Z",
+         "document_title":"Small-Batch Creamy Chocolate Pudding",
+         "document_description":"\u003cp\u003eA small amount of this pudding is just the thing to satisfy that chocolate craving.\u003c/p\u003e",
+         "document_klass":"recipe",
+         "document_klass_formatted":"Recipe",
+         "object_id":"recipe_15759",
+         "document_browse_slug":"recipes",
+         "document_browse_categories":[
+            "desserts"
+         ],
+         "document_url":"/recipes/15759-small-batch-creamy-chocolate-pudding",
+         "document_cloudinary_id":"SFS_Creamy_Chocolate_Pudding_405_nkgcf6",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"small-batch-creamy-chocolate-pudding",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"March 10, 2023",
+         "site":"cio",
+         "document_comment_count":0,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
       {
          "id":31309793,
          "created_at":"2023-04-04T14:22:07.493Z",
@@ -965,78 +1034,6 @@
          "document_comment_count":11,
          "document_avg_score":null,
          "document_total_ratings":null
-      },
-      {
-         "id":31309672,
-         "created_at":"2023-04-04T14:13:34.081Z",
-         "document_title":"Double-Chocolate Banana Bread",
-         "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#0f0f0f\"\u003eWe put in more bananas than we thought our bread could hold. Then we added more.\u003c/span\u003e\u003c/p\u003e",
-         "document_klass":"recipe",
-         "document_klass_formatted":"Recipe",
-         "object_id":"recipe_13292",
-         "document_browse_slug":"recipes",
-         "document_browse_categories":[
-            "breads_sandwiches_pizza",
-            "desserts"
-         ],
-         "document_url":"/recipes/13292-double-chocolate-banana-bread",
-         "document_cloudinary_id":"SFS_ChocolateChipBananaBread_0001_sgyrsf",
-         "document_cloudinary_id_landscape":null,
-         "document_slug":"double-chocolate-banana-bread",
-         "favorited_date_formatted":"April 4, 2023",
-         "document_created_at_formatted":"August 17, 2020",
-         "site":"cco",
-         "document_comment_count":44,
-         "document_avg_score":4.89,
-         "document_total_ratings":19
-      },
-      {
-         "id":31309668,
-         "created_at":"2023-04-04T14:13:21.726Z",
-         "document_title":"Brioche Dinner Rolls",
-         "document_description":"One simple dough, and a process that's just as easy.",
-         "document_klass":"recipe",
-         "document_klass_formatted":"Recipe",
-         "object_id":"recipe_11878",
-         "document_browse_slug":"recipes",
-         "document_browse_categories":[
-            "breads_sandwiches_pizza",
-            "desserts"
-         ],
-         "document_url":"/recipes/11878-brioche-dinner-rolls",
-         "document_cloudinary_id":"SFS_Brioche-Dinner-Rolls_013_lr6bev",
-         "document_cloudinary_id_landscape":null,
-         "document_slug":"brioche-dinner-rolls",
-         "favorited_date_formatted":"April 4, 2023",
-         "document_created_at_formatted":"June 17, 2019",
-         "site":"cco",
-         "document_comment_count":70,
-         "document_avg_score":4.71,
-         "document_total_ratings":7
-      },
-      {
-         "id":31309667,
-         "created_at":"2023-04-04T14:13:17.338Z",
-         "document_title":"Cuban Bread",
-         "document_description":"\u003cp\u003eOur savory loaf has the perfect texture for pressed sandwiches.\u003c/p\u003e",
-         "document_klass":"recipe",
-         "document_klass_formatted":"Recipe",
-         "object_id":"recipe_12269",
-         "document_browse_slug":"recipes",
-         "document_browse_categories":[
-            "breads_sandwiches_pizza",
-            "desserts"
-         ],
-         "document_url":"/recipes/12269-cuban-bread",
-         "document_cloudinary_id":"SFS_CubanBread_17_ghnzh3",
-         "document_cloudinary_id_landscape":null,
-         "document_slug":"cuban-bread",
-         "favorited_date_formatted":"April 4, 2023",
-         "document_created_at_formatted":"December 5, 2019",
-         "site":"cco",
-         "document_comment_count":47,
-         "document_avg_score":3.67,
-         "document_total_ratings":3
       }
    ]
   },

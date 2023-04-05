@@ -18,39 +18,51 @@ const MediaCard = ({elementType = 'div', headerLevel = 'h2', ...props}) => {
     document_url
   } = props
   return (
-    <Wrapper className="space-y-4">
+    <Wrapper className="relative space-y-4 group">
       <div className={document_cloudinary_id ? 'media-card-image' : 'media-card-image no-image'}>
         <div className='min-h-[2rem]'>
           {document_cloudinary_id && (
-            <a aria-label={`${document_title} ${document_klass}`} className="group" href={`https://www.americastestkitchen.com${document_url}`}>
-              <img src={`${cloudinaryUrl}${document_cloudinary_id}`} alt={document_title} loading="lazy" />
-            </a>
+            <img src={`${cloudinaryUrl}${document_cloudinary_id}`} alt={document_title} loading="lazy" />
           )}
         </div>
-        <div className="z-10 w-[1.5625rem] h-[1.5625rem] shrink-0 media-card-site">
+        <div className="z-10 shrink-0 media-card-site">
           <SiteBadge site={site} />
         </div>
       </div>
-      <div className="space-y-2">
-        <a className="block group" href={`https://www.americastestkitchen.com${document_url}`}>
-          <Header className="text-2xl font-semibold leading-tight transition-colors duration-150 group-hover:text-teal-700">{document_title}</Header>
-        </a>
+      <div className="space-y-3">
+        <Header className="text-2xl font-semibold leading-tight transition-colors duration-150 group-hover:text-mint group-focus:text-mint">
+            {document_title}
+        </Header>
         <div dangerouslySetInnerHTML={{ __html: document_description}}></div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-6 pb-4">
           {document_avg_score && (
-            <p className="flex items-center">
-              <svg className="w-5 h-5" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" class="icon-star-full" role="img" viewBox="0 0 15.2 14.5"><path fill="#437072" d="M7.6 11l-4.7 3.5 1.8-5.6L0 5.5h5.8L7.6 0l1.8 5.5h5.8l-4.7 3.4 1.8 5.6L7.6 11z"></path></svg>
-              <span><strong>{ document_avg_score.toFixed(0) }</strong>({document_total_ratings})</span>
-            </p>
+            <aside aria-label="Item reviews" className="flex items-center">
+              <svg className="block w-5 h-5 text-mint-dark" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 15.2 14.5">
+                <path fill="currentColor" d="M7.6 11l-4.7 3.5 1.8-5.6L0 5.5h5.8L7.6 0l1.8 5.5h5.8l-4.7 3.4 1.8 5.6L7.6 11z"></path>
+              </svg>
+              <p>
+                <span className="font-bold">{ document_avg_score.toFixed(0) }</span>
+                <span className="sr-only">stars based on</span>
+                ({document_total_ratings})
+                <span class="sr-only">reviews.</span>
+              </p>
+            </aside>
           )}
           {document_comment_count > 0 && (
-            <p className='flex items-center gap-1'>
-              <svg className="w-4 h-4" aria-hidden="true" focusable="false" height="13.284" viewBox="0 0 13.279 13.284" xmlns="http://www.w3.org/2000/svg" width="13.279"><g transform="translate(-13.993 -7.02)"><path d="M27.26,13.252A6.64,6.64,0,1,0,20.452,20.3a6.394,6.394,0,0,0,3.081-.664,1.69,1.69,0,0,1,1.125-.092l2.14.609a.27.27,0,0,0,.332-.332l-.646-1.993a1.594,1.594,0,0,1,.092-1.2A6.653,6.653,0,0,0,27.26,13.252Z" fill="#437072"></path></g></svg>
-              <strong>{document_comment_count}</strong></p>
+            <aside aria-label="Comments" className='flex items-center gap-1'>
+              <svg className="w-4 h-4 text-mint-dark" aria-hidden="true" focusable="false" height="13.284" viewBox="0 0 13.279 13.284" xmlns="http://www.w3.org/2000/svg" width="13.279"><g transform="translate(-13.993 -7.02)"><path d="M27.26,13.252A6.64,6.64,0,1,0,20.452,20.3a6.394,6.394,0,0,0,3.081-.664,1.69,1.69,0,0,1,1.125-.092l2.14.609a.27.27,0,0,0,.332-.332l-.646-1.993a1.594,1.594,0,0,1,.092-1.2A6.653,6.653,0,0,0,27.26,13.252Z" fill="currentColor"></path></g></svg>
+              <p>
+                <span className="font-bold">{document_comment_count}</span>
+                <span className="sr-only">comments</span>
+              </p>
+            </aside>
           )}
         </div>
         <p>Saved On {document_created_at_formatted}</p>
       </div>
+      <a className="absolute inset-0" href={`https://www.americastestkitchen.com${document_url}`}>
+        <span className="sr-only">{document_title}</span>
+      </a>
     </Wrapper>
   )
 }

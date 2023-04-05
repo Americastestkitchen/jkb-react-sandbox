@@ -42,17 +42,17 @@ const Favorites = () => {
   }
 
   return (
-    <div className="px-4 space-y-6 lg:px-0">
+    <section aria-labelledby='my-favorites' className="px-4 space-y-6 lg:px-0">
       <div>
         {favorites ? (
           <div className="space-y-6">
             <div className="relative flex items-baseline justify-between pb-2 border-b">
               <div className="flex items-center">
-                <h1 className="text-2xl font-semibold">My Favorites
+                <h2 id="my-favorites" className="text-2xl font-semibold">My Favorites
                 {pagination && (
                   <span>({pagination.total_count})</span>
                 )}
-                </h1>
+                </h2>
               </div>
               <div className="flex items-center gap-2">
                 <button aria-label="Sort by publish date" className={currentSort === 'date' ? 'bg-black text-white p-1 rounded' : 'p-1 rounded transition-color duration-150 hover:bg-gray-300'} onClick={sortByPublishDate}>
@@ -73,7 +73,7 @@ const Favorites = () => {
                   <MediaCard
                     {...item }
                     elementType="li"
-                    headerLevel='h2'
+                    headerLevel='h3'
                   />
                 ))
               }
@@ -83,7 +83,7 @@ const Favorites = () => {
           <p>Loading my favorites...</p>
         )}
       </div>
-    </div>
+    </section>
   )
 }
 
