@@ -33,6 +33,7 @@ const Favorites = () => {
 
   const handleEndpointClick = (newEndpoint) => {
     setEndpoint(newEndpoint);
+    setCurrentSort(null)
   };
 
   const sortByPublishDate = () => {
@@ -95,35 +96,35 @@ const Favorites = () => {
       {isOpen && (
       <SlideInContainer isOpen={isOpen} toggleMenu={toggleMenu}>
         <p className="font-bold">Sort and Filter By</p>
-        <ul className="space-y-1">
-          <li>
-            <button aria-label="Sort by publish date" className='menu-button' onClick={sortByPublishDate}>
-              <span className={`h-4 w-4 rounded-full border transition-colors duration-150 ${currentSort === 'date' ? 'bg-mint border-mint' : 'border-silver group-hover:bg-mint'}`}></span>
-              Sort by publish date
-            </button>
-          </li>
-          <li>
-            <button aria-label="Sort alphabetically" className='menu-button' onClick={sortByAlphabetical}>
-              <span className={`h-4 w-4 rounded-full border transition-colors duration-150 ${currentSort === 'alphabetical' ? 'bg-mint border-mint' : 'border-silver group-hover:bg-mint'}`}></span>
-              Sort alphabetically
-            </button>
-          </li>
-        </ul>
+          <ul className={`space-y-1 transition-all duration-300 ${pagination.total_count <= 1 ? 'opacity-50 pointer-events-none line-through' : '' }`}>
+            <li>
+              <button aria-label="Sort by publish date" className='menu-button' onClick={sortByPublishDate}>
+                <span className={`h-4 w-4 rounded-full border transition-colors duration-150 ${currentSort === 'date' ? 'bg-mint border-mint' : 'border-silver group-hover:bg-mint'}`}></span>
+                Sort by publish date
+              </button>
+            </li>
+            <li>
+              <button aria-label="Sort alphabetically" className='menu-button' onClick={sortByAlphabetical}>
+                <span className={`h-4 w-4 rounded-full border transition-colors duration-150 ${currentSort === 'alphabetical' ? 'bg-mint border-mint' : 'border-silver group-hover:bg-mint'}`}></span>
+                Sort alphabetically
+              </button>
+            </li>
+          </ul>
 
         <ul className="space-y-1">
           <li>
-            <button className='menu-button' onClick={() => handleEndpointClick('recipes')}>
+            <button className='font-normal menu-button' onClick={() => handleEndpointClick('recipes')}>
               <span className={`h-4 w-4 rounded-full border transition-colors duration-150 ${endpoint === 'recipes' ? 'bg-mint border-mint' : 'border-silver group-hover:bg-mint'}`}></span>
               Recipes
             </button>
           </li>
           <li>
-            <button className='menu-button' onClick={() => handleEndpointClick('taste_tests')}>
+            <button className='font-normal menu-button' onClick={() => handleEndpointClick('taste_tests')}>
               <span className={`h-4 w-4 rounded-full border transition-colors duration-150 ${endpoint === 'taste_tests' ? 'bg-mint border-mint' : 'border-silver group-hover:bg-mint'}`}></span>
               Taste Tests</button>
           </li>
           <li>
-            <button className='menu-button' onClick={() => handleEndpointClick('episodes')}>
+            <button className='font-normal menu-button' onClick={() => handleEndpointClick('episodes')}>
               <span className={`h-4 w-4 rounded-full border transition-colors duration-150 ${endpoint === 'episodes' ? 'bg-mint border-mint' : 'border-silver group-hover:bg-mint'}`}></span>
               Episodes</button>
           </li>

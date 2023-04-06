@@ -27,15 +27,7 @@ html {
 }
 
 .slide-in {
-  @apply fixed top-0 right-0 z-50 flex flex-col h-screen p-8 transition-transform duration-300 transform bg-white shadow-lg w-96;
-}
-
-.slide-in.closed {
-  @apply translate-x-full;
-}
-
-.slide-in.open {
-  @apply translate-x-0;
+  @apply fixed top-0 right-0 z-50 flex flex-col h-screen p-8 transition-all duration-300 transform bg-white shadow-lg w-96;
 }
 
 a, button {
