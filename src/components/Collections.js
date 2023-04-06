@@ -55,14 +55,14 @@ const Collections = () => {
       </div>
       {isOpen && (
         <SlideInContainer isOpen={isOpen} toggleMenu={toggleMenu}>
-            <p className="font-semibold">Create a new collection</p>
-            <form>
-              <label htmlFor="collection-name" className="sr-only">Collection name</label>
-              <div className="relative w-full h-10 bg-white-smoke">
-                <input type="text" name="collection-name" id="collection-name" placeholder="Collection name" className="w-full h-full pl-4 pr-8 bg-transparent focus:ring-mint focus:border-eclipse " />
-                <span className='absolute transform -translate-y-1/2 right-4 top-1/2'>+</span>
-              </div>
-            </form>
+          <p className="font-semibold">Create a new collection</p>
+          <form>
+            <label htmlFor="collection-name" className="sr-only">Collection name</label>
+            <div className="relative w-full h-10 bg-white-smoke">
+              <input type="text" name="collection-name" id="collection-name" placeholder="Collection name" className="w-full h-full pl-4 pr-8 bg-transparent focus:ring-mint focus:border-eclipse " />
+              <span className='absolute transform -translate-y-1/2 right-4 top-1/2'>+</span>
+            </div>
+          </form>
         </SlideInContainer>
       )}
     </section>

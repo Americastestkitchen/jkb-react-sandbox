@@ -26,7 +26,7 @@ const MediaCard = ({elementType = 'div', headerLevel = 'h2', id, ...props}) => {
 
   return (
     <Wrapper className="relative group" id={id}>
-      <div className={document_cloudinary_id ? 'media-card-image' : 'media-card-image no-image'}>
+      <div className={`media-card-image ${document_cloudinary_id ? '' : 'no-image'}`}>
         <div className='min-h-[2rem]'>
           {document_cloudinary_id && (
             <img src={`${cloudinaryUrl}${document_cloudinary_id}`} alt={document_title} loading="lazy" />
