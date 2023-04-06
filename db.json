@@ -183,7 +183,7 @@
         }
     ]
   },
-  "favorites": {
+  "favorite_recipes": {
    "pagination":{
       "current_page":1,
       "last_page":false,
@@ -1032,6 +1032,93 @@
          "document_created_at_formatted":"March 20, 2013",
          "site":"cco",
          "document_comment_count":11,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      }
+   ]
+  },
+  "favorite_episodes": {
+       "pagination":{
+      "current_page":1,
+      "last_page":true,
+      "per_page":36,
+      "total_count":1
+   },
+   "results":[
+      {
+         "id":27108633,
+         "created_at":"2022-05-30T16:54:39.928Z",
+         "document_title":"Vindaloo and Chana Masala",
+         "document_description":"\u003cp\u003e\u003cspan class=\"ql-color-#000000\"\u003eHosts Julia Collin Davison and Bridget Lancaster reveal the secrets to Goan Pork Vindaloo. Equipment expert Adam Ried shares with host Julia Collin Davison his top picks for rice cookers, and gadget critic Lisa McManus reviews electric can openers. Test cook Dan Souza prepares Julia Chana Masala.\u003c/span\u003e\u003c/p\u003e",
+         "document_klass":"episode",
+         "document_klass_formatted":"Episode",
+         "object_id":"episode_811",
+         "document_browse_slug":"episodes",
+         "document_browse_categories":null,
+         "document_url":"/episode/811-vindaloo-and-chana-masala",
+         "document_cloudinary_id":"ATKTV and CCTV Season Refresh/ATKTV S22/Episode 12/ATK-S22_20210716_11-43-00_49019",
+         "document_cloudinary_id_landscape":null,
+         "document_slug":"vindaloo-and-chana-masala",
+         "favorited_date_formatted":"May 30, 2022",
+         "document_created_at_formatted":"November 30, 2021",
+         "site":"atk",
+         "document_comment_count":0,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      }
+   ]
+  },
+  "favorite_taste_tests": {
+   "pagination":{
+      "current_page":1,
+      "last_page":true,
+      "per_page":36,
+      "total_count":2
+   },
+   "results":[
+      {
+         "id":31309690,
+         "created_at":"2023-04-04T14:14:51.772Z",
+         "document_title":"Why We Love Kansas City–Style Barbecue Sauce",
+         "document_description":"\u003cp\u003eIt’s a sticky-sweet American classic. But how did it become one of the country’s favorites?\u003c/p\u003e",
+         "document_klass":"taste_test",
+         "document_klass_formatted":"Taste Test",
+         "object_id":"taste_test_2551",
+         "document_browse_slug":"taste_tests",
+         "document_browse_categories":[
+
+         ],
+         "document_url":"/taste_tests/2551-why-we-love-kansas-city-style-barbecue-sauce",
+         "document_cloudinary_id":"ATK Reviews/2022/Kansas City–Style Barbecue Sauce/SPS_Hero-Reshoot-2_null_75625",
+         "document_cloudinary_id_landscape":"ATK Reviews/2022/Kansas City–Style Barbecue Sauce/SPS_Hero-Reshoot-2_null_75625",
+         "document_slug":"why-we-love-kansas-city-style-barbecue-sauce",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"November 15, 2022",
+         "site":"atk",
+         "document_comment_count":23,
+         "document_avg_score":null,
+         "document_total_ratings":null
+      },
+      {
+         "id":31309696,
+         "created_at":"2023-04-04T14:15:17.062Z",
+         "document_title":"The Wide World of Vinegar",
+         "document_description":"\u003cp\u003eWe want to help you better understand the vast array of vinegars from around the globe.\u003c/p\u003e",
+         "document_klass":"taste_test",
+         "document_klass_formatted":"Taste Test",
+         "object_id":"taste_test_2587",
+         "document_browse_slug":"taste_tests",
+         "document_browse_categories":[
+
+         ],
+         "document_url":"/taste_tests/2587-the-wide-world-of-vinegar",
+         "document_cloudinary_id":"ATK Reviews/2022/Vinegars/SPS_Vinegars_Hero",
+         "document_cloudinary_id_landscape":"ATK Reviews/2022/Vinegars/SPS_Vinegars_Hero",
+         "document_slug":"the-wide-world-of-vinegar",
+         "favorited_date_formatted":"April 4, 2023",
+         "document_created_at_formatted":"December 20, 2022",
+         "site":"atk",
+         "document_comment_count":4,
          "document_avg_score":null,
          "document_total_ratings":null
       }
